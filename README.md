@@ -6,11 +6,11 @@ Dead-simple mass unsubscription from github repositories.
 
 Have you ever been added to some github organization and suddenly got spammed with tons of notifications from projects you don't care about? me too.
 
-You can unsubscribe manually one-by-one but this is tedious, you can also change your settings so you don't automatically subscribed but this also affects individual repos you become a contributor to, which are mostly the ones you're interested in watch.
+You can unsubscribe manually one-by-one but this is tedious, you can also change your settings so you don't automatically get subscribed but this also affects individual repos you become a contributor to, which are mostly the ones you're interested in watch.
 
 ### The solution
 
-Ideally github should differentiate between adding a collaborator to a specific repo and being added to an organization in order to prevent mass-subscriptions but since I'm not willing to bet or wait for that here's a simple bash script to automate the process using the API.
+Ideally github should differentiate between adding a collaborator to a specific repo and being added to an organization in order to prevent mass-subscriptions but I'm not willing to bet or wait for that so here's a simple bash script to automate the process using the [API](https://developer.github.com/v3/).
 
 ## Usage
 
